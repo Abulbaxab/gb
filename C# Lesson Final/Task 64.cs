@@ -12,7 +12,7 @@ namespace ConsoleApp1
             Console.WriteLine("Введите конечное число N:");
             int numberN = int.Parse(Console.ReadLine());
 
-            ///Метод нахождения суммы натуральных элементов в промежутке от M до N
+            ///Метод вывода чисел в промежутке от M до N
             void NumberCounter(int numberM, int numberN)
             {
                 if (numberM < 0 || numberN < 0) Console.Write($"{numberM} не натуральное число");
